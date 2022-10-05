@@ -94,3 +94,44 @@
 2022-10-05 15:28:39.969 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_on_ice(ResNet)_model: 0.01s
 2022-10-05 15:28:45.093 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
 2022-10-05 15:28:58.387 | SUCCESS  | services.bricklayer.core:unreal_activate_payment:1029 - >> GET [UnrealClaimer] 🥂 领取成功
+2022-10-06 05:33:45.308 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-06 05:33:45.379 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-06 05:33:45.681 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-06 05:33:47.858 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-06 05:33:47.858 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-06 05:34:10.287 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-06 05:34:10.349 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-06 05:34:12.501 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「岩石后面企鹅」
+2022-10-06 05:34:13.210 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.17s
+2022-10-06 05:34:13.213 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading penguin_behind_rocks.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/penguin_behind_rocks.onnx
+2022-10-06 05:34:14.093 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_behind_rocks(ResNet)_model: 0.18s
+2022-10-06 05:34:18.161 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-06 05:34:18.189 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「岩石后面企鹅」
+2022-10-06 05:34:18.807 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
+2022-10-06 05:34:20.295 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_behind_rocks(ResNet)_model: 0.01s
+2022-10-06 05:34:28.371 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-06 05:34:28.873 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-06 05:34:29.413 | INFO     | services.deploy:promotions_splitter:294 - >> GET [GameClaimer] 🎮 已在库 - game=『The Drone Racing League Simulator』 url=https://store.epicgames.com/zh-CN/p/the-drone-racing-league-simulator
+2022-10-06 05:34:29.413 | INFO     | services.deploy:promotions_splitter:294 - >> GET [GameClaimer] 🎮 已在库 - game=『Runbow』 url=https://store.epicgames.com/zh-CN/p/runbow-fc9fa4
+2022-10-06 05:34:30.445 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-06 05:34:30.580 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-06 05:34:30.726 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-06 05:34:30.821 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-06 05:34:30.821 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-06 05:34:38.301 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-06 05:34:38.325 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-06 05:34:40.534 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「水下鱼」
+2022-10-06 05:34:41.229 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.16s
+2022-10-06 05:34:41.232 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading fish_underwater.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/fish_underwater.onnx
+2022-10-06 05:34:42.675 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - fish_underwater(ResNet)_model: 0.17s
+2022-10-06 05:34:46.743 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-06 05:34:46.778 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「水下鱼」
+2022-10-06 05:34:47.428 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.11s
+2022-10-06 05:34:48.741 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - fish_underwater(ResNet)_model: 0.01s
+2022-10-06 05:34:55.810 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-06 05:34:56.875 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-06 05:34:57.714 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Undead Pack』 url=https://www.unrealengine.com/marketplace/zh-CN/product/undead-pack-01
+2022-10-06 05:34:57.715 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Halloween Pumpkins / 150+ variations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/halloween-pumpkins-150-variations
+2022-10-06 05:34:57.715 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
+2022-10-06 05:34:57.716 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Zombie Movement and Modular Interaction Animations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/zombie-animations-and-modular-interactions
+2022-10-06 05:34:57.716 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『4 IN 1 Modular Research Facility / Mega Bundle』 url=https://www.unrealengine.com/marketplace/zh-CN/product/research-environment
