@@ -135,3 +135,64 @@
 2022-10-06 05:34:57.715 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
 2022-10-06 05:34:57.716 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Zombie Movement and Modular Interaction Animations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/zombie-animations-and-modular-interactions
 2022-10-06 05:34:57.716 | INFO     | services.deploy:promotions_splitter:294 - >> GET [UnrealClaimer] 🎮 已在库 - game=『4 IN 1 Modular Research Facility / Mega Bundle』 url=https://www.unrealengine.com/marketplace/zh-CN/product/research-environment
+2022-10-15 12:35:35.047 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-15 12:35:35.150 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-15 12:35:35.385 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-15 12:35:36.155 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-15 12:35:36.155 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-15 12:36:06.913 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-15 12:36:07.021 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-15 12:36:09.197 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「悬挂在天花板上的植物」
+2022-10-15 12:36:09.909 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.13s
+2022-10-15 12:36:09.912 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading plant_hanging_from_the_ceiling.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/plant_hanging_from_the_ceiling.onnx
+2022-10-15 12:36:11.606 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - plant_hanging_from_the_ceiling(ResNet)_model: 0.36s
+2022-10-15 12:36:15.731 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-15 12:36:15.766 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「悬挂在天花板上的植物」
+2022-10-15 12:36:16.442 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.11s
+2022-10-15 12:36:18.754 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - plant_hanging_from_the_ceiling(ResNet)_model: 0.01s
+2022-10-15 12:36:26.695 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-15 12:36:27.294 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-15 12:36:28.067 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『ToeJam & Earl: Back in the Groove!』 url=https://store.epicgames.com/zh-CN/p/toejam-and-earl-back-in-the-groove-cddc16
+2022-10-15 12:36:28.068 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Darkwood』 url=https://store.epicgames.com/zh-CN/p/darkwood-fa73bd
+2022-10-15 12:36:28.068 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-15 12:36:40.610 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/20 10:00 - game=『ToeJam & Earl: Back in the Groove!』
+2022-10-15 12:36:40.721 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-15 12:36:50.776 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/20 10:00 - game=『Darkwood』
+2022-10-15 12:36:50.891 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-15 12:36:51.297 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-15 12:36:54.935 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-15 12:36:55.514 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
+2022-10-15 12:36:58.895 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
+2022-10-15 12:36:58.924 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
+2022-10-15 12:36:58.925 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
+2022-10-15 12:37:18.761 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-15 12:37:18.851 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「人们通常脚上穿着的物品」
+2022-10-15 12:37:19.503 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-15 12:37:19.507 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading shoes.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/shoes.onnx
+2022-10-15 12:37:20.731 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - shoes(ResNet)_model: 0.39s
+2022-10-15 12:37:24.864 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-15 12:37:24.918 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「人们通常脚上穿着的物品」
+2022-10-15 12:37:25.554 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-15 12:37:26.322 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - shoes(ResNet)_model: 0.01s
+2022-10-15 12:37:31.576 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-15 12:37:31.745 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
+2022-10-15 12:37:38.928 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-15 12:37:42.225 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-15 12:37:47.341 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-15 12:37:48.508 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-15 12:37:48.664 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-15 12:37:48.884 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-15 12:37:49.056 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-15 12:37:49.056 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-15 12:37:57.555 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-15 12:37:57.569 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-15 12:37:59.851 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「被鲜花包围的企鹅」
+2022-10-15 12:38:00.505 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-15 12:38:00.507 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading penguin_surrounded_by_flowers.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/penguin_surrounded_by_flowers.onnx
+2022-10-15 12:38:02.388 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_surrounded_by_flowers(ResNet)_model: 0.36s
+2022-10-15 12:38:06.504 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-15 12:38:06.538 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「被鲜花包围的企鹅」
+2022-10-15 12:38:07.205 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-15 12:38:08.275 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_surrounded_by_flowers(ResNet)_model: 0.01s
+2022-10-15 12:38:15.997 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-15 12:38:16.990 | ERROR    | services.deploy:_bad_omen:264 - >> Notify [UnrealClaimer] 推送运行日志 - active_pusher=[] err=認證失敗，可能原因：公网IP被标记为高威胁目标
