@@ -196,3 +196,87 @@
 2022-10-15 12:38:08.275 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_surrounded_by_flowers(ResNet)_model: 0.01s
 2022-10-15 12:38:15.997 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
 2022-10-15 12:38:16.990 | ERROR    | services.deploy:_bad_omen:264 - >> Notify [UnrealClaimer] 推送运行日志 - active_pusher=[] err=認證失敗，可能原因：公网IP被标记为高威胁目标
+2022-10-27 05:32:03.736 | INFO     | services.deploy:job_loop_claim:108 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-10-27 05:32:06.640 | INFO     | services.bricklayer.core:refresh_ctx_cookies:672 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-10-27 05:32:06.713 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:32:16.693 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-27 05:32:16.693 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-27 05:32:19.325 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-10-27 05:32:20.707 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.86s
+2022-10-27 05:32:20.710 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading house.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/house.onnx
+2022-10-27 05:32:23.290 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.75s
+2022-10-27 05:32:23.306 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-27 05:32:23.337 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-10-27 05:32:24.536 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.72s
+2022-10-27 05:32:26.721 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.02s
+2022-10-27 05:32:32.797 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-27 05:32:32.797 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:32:37.108 | INFO     | services.bricklayer.core:login:493 - >> MATCH [CookieManager] 持久化信息未过期
+2022-10-27 05:32:46.691 | INFO     | services.bricklayer.core:load_ctx_cookies:640 - >> LOAD [CookieManager] Load context cookie
+2022-10-27 05:32:46.691 | INFO     | services.explorer.explorer:get_oder_history:201 - 初始化订单数据
+2022-10-27 05:32:47.720 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Shadow of the Tomb Raider：最终版』 url=https://store.epicgames.com/zh-CN/p/shadow-of-the-tomb-raider
+2022-10-27 05:32:47.721 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Terraforming Mars』 url=https://store.epicgames.com/zh-CN/p/terraforming-mars-18c3ad
+2022-10-27 05:32:47.721 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『A Game Of Thrones: The Board Game Digital Edition』 url=https://store.epicgames.com/zh-CN/p/a-game-of-thrones-5858a3
+2022-10-27 05:32:47.721 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Fallout 3年度最佳游戏版』 url=https://store.epicgames.com/zh-CN/p/fallout-3-game-of-the-year-edition
+2022-10-27 05:32:47.722 | DEBUG    | services.deploy:promotions_splitter:263 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Evoland传奇版』 url=https://store.epicgames.com/zh-CN/p/evoland-legendary-edition-5753ec
+2022-10-27 05:32:48.703 | DEBUG    | services.bricklayer.game:cart_balancing:68 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-27 05:32:54.038 | WARNING  | services.bricklayer.core:purchase_status:365 - >> SKIP [GameClaimer] 🚧 这不是免费游戏 - game=『Shadow of the Tomb Raider：最终版』
+2022-10-27 05:32:57.910 | WARNING  | services.bricklayer.core:purchase_status:365 - >> SKIP [GameClaimer] 🚧 这不是免费游戏 - game=『Terraforming Mars』
+2022-10-27 05:33:01.870 | WARNING  | services.bricklayer.core:purchase_status:365 - >> SKIP [GameClaimer] 🚧 这不是免费游戏 - game=『A Game Of Thrones: The Board Game Digital Edition』
+2022-10-27 05:33:06.456 | SUCCESS  | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/27 10:00 - game=『Fallout 3年度最佳游戏版』
+2022-10-27 05:33:06.551 | INFO     | services.bricklayer.core:_activate_payment:459 - [🔖] 已添加商品至购物车
+2022-10-27 05:33:11.459 | SUCCESS  | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/27 10:00 - game=『Evoland传奇版』
+2022-10-27 05:33:11.544 | INFO     | services.bricklayer.core:_activate_payment:459 - [🔖] 已添加商品至购物车
+2022-10-27 05:33:13.777 | DEBUG    | services.bricklayer.core:cart_is_empty:517 - [🛵] 审查购物车状态
+2022-10-27 05:33:15.082 | INFO     | services.bricklayer.core:_activate_payment:463 - [🔖] 已激活购物车零元购订单
+2022-10-27 05:33:15.090 | DEBUG    | services.bricklayer.core:cart_handle_payment:543 - [🛵] 处理购物订单...
+2022-10-27 05:33:22.741 | DEBUG    | services.bricklayer.core:cart_handle_payment:547 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-27 05:33:22.791 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「悬挂在天花板上的植物」
+2022-10-27 05:33:24.255 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.89s
+2022-10-27 05:33:24.501 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading plant_hanging_from_the_ceiling.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/plant_hanging_from_the_ceiling.onnx
+2022-10-27 05:33:27.665 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - plant_hanging_from_the_ceiling(ResNet)_model: 1.6s
+2022-10-27 05:33:27.684 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-27 05:33:27.714 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「悬挂在天花板上的植物」
+2022-10-27 05:33:29.004 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.75s
+2022-10-27 05:33:31.376 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - plant_hanging_from_the_ceiling(ResNet)_model: 0.76s
+2022-10-27 05:33:35.991 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-27 05:33:36.204 | DEBUG    | services.bricklayer.core:cart_handle_payment:549 - [🌀] 弹出内联订单框架...
+2022-10-27 05:33:37.651 | DEBUG    | services.bricklayer.core:cart_is_empty:517 - [🛵] 审查购物车状态
+2022-10-27 05:33:38.094 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:80 - ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-27 05:33:48.837 | INFO     | services.deploy:job_loop_claim:108 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-10-27 05:33:50.045 | INFO     | services.bricklayer.core:refresh_ctx_cookies:672 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-10-27 05:33:50.102 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:33:57.087 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-27 05:33:57.088 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-27 05:33:59.355 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「橙色水果」
+2022-10-27 05:34:00.490 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.73s
+2022-10-27 05:34:00.491 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:34:05.712 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-27 05:34:05.713 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-27 05:34:07.917 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「橙色水果」
+2022-10-27 05:34:08.905 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.61s
+2022-10-27 05:34:08.906 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:34:14.048 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-27 05:34:14.049 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-27 05:34:16.275 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「橙色水果」
+2022-10-27 05:34:17.271 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.66s
+2022-10-27 05:34:17.272 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:34:22.220 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-27 05:34:22.220 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-27 05:34:24.464 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「人们通常脚上穿着的物品」
+2022-10-27 05:34:25.558 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.73s
+2022-10-27 05:34:25.561 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading shoes.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/shoes.onnx
+2022-10-27 05:34:28.027 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - shoes(ResNet)_model: 0.46s
+2022-10-27 05:34:28.040 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-27 05:34:28.060 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「人们通常脚上穿着的物品」
+2022-10-27 05:34:29.158 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.78s
+2022-10-27 05:34:30.819 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - shoes(ResNet)_model: 0.01s
+2022-10-27 05:34:36.249 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-27 05:34:36.250 | INFO     | services.bricklayer.core:login:482 - >> MATCH [CookieManager] 刷新令牌
+2022-10-27 05:34:39.584 | INFO     | services.bricklayer.core:login:505 - >> MATCH [CookieManager] 持久化信息未过期
+2022-10-27 05:34:39.944 | INFO     | services.bricklayer.core:load_ctx_cookies:640 - >> LOAD [CookieManager] Load context cookie
+2022-10-27 05:34:40.718 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Undead Pack』 url=https://www.unrealengine.com/marketplace/zh-CN/product/undead-pack-01
+2022-10-27 05:34:40.719 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Halloween Pumpkins / 150+ variations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/halloween-pumpkins-150-variations
+2022-10-27 05:34:40.719 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
+2022-10-27 05:34:40.719 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Zombie Movement and Modular Interaction Animations』 url=https://www.unrealengine.com/marketplace/zh-CN/product/zombie-animations-and-modular-interactions
+2022-10-27 05:34:40.719 | DEBUG    | services.deploy:promotions_splitter:255 - >> GET [UnrealClaimer] 🎮 已在库 - game=『4 IN 1 Modular Research Facility / Mega Bundle』 url=https://www.unrealengine.com/marketplace/zh-CN/product/research-environment
