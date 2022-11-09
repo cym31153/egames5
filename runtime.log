@@ -341,3 +341,45 @@
 2022-11-03 05:33:07.213 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit_blur(ResNet)_model: 0.61s
 2022-11-03 05:33:11.861 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
 2022-11-03 05:33:14.666 | SUCCESS  | services.bricklayer.core:unreal_activate_payment:579 - >> GET [UnrealClaimer] 🥂 领取成功
+2022-11-10 05:31:42.406 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-10 05:31:43.679 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-10 05:31:43.742 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-10 05:31:45.758 | INFO     | services.bricklayer.core:login:494 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-10 05:31:47.821 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-10 05:31:47.825 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-10 05:31:48.181 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Rising Storm 2: Vietnam - state=待认领 link=https://store.epicgames.com/zh-CN/p/rising-storm-2-vietnam
+2022-11-10 05:31:48.182 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Filament - state=待认领 link=https://store.epicgames.com/zh-CN/p/filament-332a92
+2022-11-10 05:31:55.878 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Rising Storm 2: Vietnam - state=获取 link=https://store.epicgames.com/zh-CN/p/rising-storm-2-vietnam
+2022-11-10 05:31:56.839 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-10 05:31:56.855 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-10 05:32:07.977 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-10 05:32:08.026 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「波涛汹涌的大海」
+2022-11-10 05:32:09.357 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.59s
+2022-11-10 05:32:10.314 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-10 05:32:17.249 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Rising Storm 2: Vietnam - state=获取 link=https://store.epicgames.com/zh-CN/p/rising-storm-2-vietnam
+2022-11-10 05:32:17.982 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-10 05:32:17.982 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-10 05:32:28.238 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-10 05:32:28.276 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水母」
+2022-11-10 05:32:29.493 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.49s
+2022-11-10 05:32:29.776 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading jellyfish.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/jellyfish.onnx
+2022-11-10 05:32:33.060 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - jellyfish(ResNet)_model: 1.22s
+2022-11-10 05:32:33.146 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-10 05:32:35.176 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水母」
+2022-11-10 05:32:36.155 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.35s
+2022-11-10 05:32:38.809 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - jellyfish(ResNet)_model: 0.79s
+2022-11-10 05:32:44.246 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-11-10 05:32:45.279 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-10 05:32:53.562 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Rising Storm 2: Vietnam - state=已在库中 link=https://store.epicgames.com/zh-CN/p/rising-storm-2-vietnam
+2022-11-10 05:33:05.066 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-10 05:33:05.282 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-10 05:33:06.347 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-10 05:33:06.409 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-10 05:33:08.599 | INFO     | services.bricklayer.core:login:506 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-10 05:33:10.295 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-10 05:33:10.859 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『CLOTHING AND SHOE STORES』 url=https://www.unrealengine.com/marketplace/zh-CN/product/clothing-and-shoe-stores
+2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Physical Interaction System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/physical-interaction-system
+2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Universal Camera』 url=https://www.unrealengine.com/marketplace/zh-CN/product/universal-camera
+2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
+2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
+2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
