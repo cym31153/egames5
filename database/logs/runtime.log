@@ -383,3 +383,105 @@
 2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Advanced AI Spawn System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/ai-spawn-system-01
 2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
 2022-11-10 05:33:10.860 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
+2022-11-17 05:27:18.167 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-17 05:27:19.328 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-17 05:27:19.384 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-17 05:27:21.322 | INFO     | services.bricklayer.core:login:494 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-17 05:27:23.302 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-17 05:27:23.304 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-17 05:27:23.867 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=待认领 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-17 05:27:23.868 | DEBUG    | services.deploy:preload:391 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=待认领 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-17 05:27:30.149 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=获取 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-17 05:27:30.600 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-17 05:27:30.614 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-17 05:27:41.678 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-17 05:27:41.724 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「螃蟹」
+2022-11-17 05:27:42.840 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.46s
+2022-11-17 05:27:42.843 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading crab.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/crab.onnx
+2022-11-17 05:27:45.385 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - crab(ResNet)_model: 0.28s
+2022-11-17 05:27:45.417 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:27:47.445 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「螃蟹」
+2022-11-17 05:27:48.615 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.61s
+2022-11-17 05:27:50.469 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - crab(ResNet)_model: 0.01s
+2022-11-17 05:27:55.523 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-17 05:27:55.524 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:27:57.875 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-17 05:28:03.226 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=获取 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-17 05:28:03.816 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-17 05:28:03.816 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-17 05:28:13.202 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-17 05:28:13.237 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「沙滩上的鸡」
+2022-11-17 05:28:14.163 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.37s
+2022-11-17 05:28:14.166 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading chicken_on_the_beach.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/chicken_on_the_beach.onnx
+2022-11-17 05:28:15.961 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - chicken_on_the_beach(ResNet)_model: 0.16s
+2022-11-17 05:28:15.981 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:28:18.007 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「沙滩上的鸡」
+2022-11-17 05:28:18.911 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.39s
+2022-11-17 05:28:20.732 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - chicken_on_the_beach(ResNet)_model: 0.01s
+2022-11-17 05:28:52.791 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=決策中斷(retry)
+2022-11-17 05:28:53.052 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-17 05:28:59.398 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Alba - A Wildlife Adventure - state=获取 link=https://store.epicgames.com/zh-CN/p/alba-a-wildlife-adventure-93736a
+2022-11-17 05:28:59.913 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-17 05:28:59.913 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-17 05:29:09.594 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-17 05:29:09.632 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「蜻蜓」
+2022-11-17 05:29:10.611 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.41s
+2022-11-17 05:29:10.615 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading dragonfly.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/dragonfly.onnx
+2022-11-17 05:29:12.542 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - dragonfly(ResNet)_model: 0.24s
+2022-11-17 05:29:12.559 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:29:14.586 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「蜻蜓」
+2022-11-17 05:29:15.493 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.37s
+2022-11-17 05:29:17.369 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - dragonfly(ResNet)_model: 0.01s
+2022-11-17 05:29:22.415 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-17 05:29:22.415 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:29:24.769 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-17 05:29:31.356 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=获取 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-17 05:29:31.967 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-17 05:29:32.052 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-17 05:29:41.568 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-17 05:29:41.613 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「沙滩上的鸡」
+2022-11-17 05:29:42.565 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.43s
+2022-11-17 05:29:44.572 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - chicken_on_the_beach(ResNet)_model: 0.01s
+2022-11-17 05:29:44.602 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:29:46.652 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「沙滩上的鸡」
+2022-11-17 05:29:47.506 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.37s
+2022-11-17 05:29:49.373 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - chicken_on_the_beach(ResNet)_model: 0.01s
+2022-11-17 05:30:21.421 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=決策中斷(retry)
+2022-11-17 05:30:21.727 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-17 05:30:27.689 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=获取 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-17 05:30:28.781 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-17 05:30:28.782 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-17 05:30:38.345 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-17 05:30:38.405 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「螃蟹」
+2022-11-17 05:30:39.296 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.37s
+2022-11-17 05:30:41.340 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - crab(ResNet)_model: 0.02s
+2022-11-17 05:30:41.366 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:30:43.393 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「螃蟹」
+2022-11-17 05:30:44.299 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.4s
+2022-11-17 05:30:45.952 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - crab(ResNet)_model: 0.01s
+2022-11-17 05:31:18.001 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=決策中斷(retry)
+2022-11-17 05:31:18.294 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-17 05:31:24.245 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Epic Cheerleader 包 - state=获取 link=https://store.epicgames.com/zh-CN/p/rumbleverse
+2022-11-17 05:31:24.979 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-11-17 05:31:24.979 | DEBUG    | services.bricklayer.core:cart_handle_payment:544 - [🛵] 处理购物订单...
+2022-11-17 05:31:34.446 | DEBUG    | services.bricklayer.core:cart_handle_payment:548 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-17 05:31:34.479 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「螃蟹」
+2022-11-17 05:31:35.421 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.41s
+2022-11-17 05:31:37.254 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - crab(ResNet)_model: 0.01s
+2022-11-17 05:31:37.275 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-17 05:31:39.301 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「螃蟹」
+2022-11-17 05:31:40.191 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.37s
+2022-11-17 05:31:42.053 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - crab(ResNet)_model: 0.01s
+2022-11-17 05:32:14.166 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=決策中斷(retry)
+2022-11-17 05:32:14.452 | DEBUG    | services.bricklayer.core:cart_handle_payment:550 - [🌀] 弹出内联订单框架...
+2022-11-17 05:32:27.140 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-11-17 05:32:27.358 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-17 05:32:28.395 | INFO     | services.bricklayer.core:refresh_ctx_cookies:673 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-17 05:32:28.458 | INFO     | services.bricklayer.core:login:481 - >> MATCH [CookieManager] 刷新令牌
+2022-11-17 05:32:32.089 | INFO     | services.bricklayer.core:login:506 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-17 05:32:33.017 | INFO     | services.bricklayer.core:load_ctx_cookies:641 - >> LOAD [CookieManager] Load context cookie
+2022-11-17 05:32:33.632 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『CLOTHING AND SHOE STORES』 url=https://www.unrealengine.com/marketplace/zh-CN/product/clothing-and-shoe-stores
+2022-11-17 05:32:33.632 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Physical Interaction System』 url=https://www.unrealengine.com/marketplace/zh-CN/product/physical-interaction-system
+2022-11-17 05:32:33.633 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Universal Camera』 url=https://www.unrealengine.com/marketplace/zh-CN/product/universal-camera
+2022-11-17 05:32:33.633 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
+2022-11-17 05:32:33.633 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
