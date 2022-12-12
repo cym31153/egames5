@@ -485,3 +485,67 @@
 2022-11-17 05:32:33.633 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Universal Camera』 url=https://www.unrealengine.com/marketplace/zh-CN/product/universal-camera
 2022-11-17 05:32:33.633 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Loft Office (Modular)』 url=https://www.unrealengine.com/marketplace/zh-CN/product/loft-office-modular
 2022-11-17 05:32:33.633 | DEBUG    | services.deploy:promotions_splitter:254 - >> GET [UnrealClaimer] 🎮 已在库 - game=『Animated Rain - Waterdrop Material & FX』 url=https://www.unrealengine.com/marketplace/zh-CN/product/animated-rain-waterdrop-material
+2022-12-13 05:25:41.007 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-13 05:25:41.973 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-13 05:25:42.020 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-13 05:25:45.578 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-13 05:25:47.493 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-13 05:25:47.494 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-13 05:25:48.067 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Wildcat Gun Machine - state=待认领 link=https://store.epicgames.com/zh-CN/p/wildcat-gun-machine-c66c4e
+2022-12-13 05:25:48.067 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] 黑街圣徒 IV：改选 - state=待认领 link=https://store.epicgames.com/zh-CN/p/saints-row-iv-re-elected
+2022-12-13 05:25:55.812 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Wildcat Gun Machine - state=获取 link=https://store.epicgames.com/zh-CN/p/wildcat-gun-machine-c66c4e
+2022-12-13 05:25:56.597 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-13 05:25:56.601 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-13 05:26:06.893 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-13 05:26:06.909 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-13 05:26:14.192 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Wildcat Gun Machine - state=获取 link=https://store.epicgames.com/zh-CN/p/wildcat-gun-machine-c66c4e
+2022-12-13 05:26:14.584 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-13 05:26:14.584 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-13 05:26:23.738 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-13 05:26:23.746 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-13 05:26:30.508 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Wildcat Gun Machine - state=获取 link=https://store.epicgames.com/zh-CN/p/wildcat-gun-machine-c66c4e
+2022-12-13 05:26:30.897 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-13 05:26:30.897 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-13 05:26:40.115 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-13 05:26:40.125 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-13 05:26:44.764 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] 黑街圣徒 IV：改选 - state=获取 link=https://store.epicgames.com/zh-CN/p/saints-row-iv-re-elected
+2022-12-13 05:26:45.119 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-13 05:26:45.139 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-13 05:26:54.288 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-13 05:26:54.296 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-13 05:26:58.824 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] 黑街圣徒 IV：改选 - state=获取 link=https://store.epicgames.com/zh-CN/p/saints-row-iv-re-elected
+2022-12-13 05:26:59.343 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-13 05:26:59.344 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-13 05:27:08.676 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-13 05:27:08.685 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-13 05:27:13.603 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] 黑街圣徒 IV：改选 - state=获取 link=https://store.epicgames.com/zh-CN/p/saints-row-iv-re-elected
+2022-12-13 05:27:14.314 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-13 05:27:14.314 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-13 05:27:23.441 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-13 05:27:23.449 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-13 05:27:34.258 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-13 05:27:34.456 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-13 05:27:35.592 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-13 05:27:35.644 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-13 05:27:38.159 | INFO     | services.bricklayer.core:login:516 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-13 05:27:38.583 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-13 05:27:39.412 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Stylized - Dynamic Nature] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/stylized-dynamic-nature
+2022-12-13 05:27:39.412 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer PLATFORMER - Stylized Cube World Vol.1] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/platformer-stylized-cube-world-vol-1
+2022-12-13 05:27:39.412 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Stylized Truck Pack] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/stylized-truck-pack
+2022-12-13 05:27:39.412 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Hospitality Pack] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/hospitality-pack
+2022-12-13 05:27:39.412 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Modular Gothic Temple (medieval/winter/snow)] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/modular-gothic-temple-medieval-winter-snow
+2022-12-13 05:27:43.776 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized - Dynamic Nature』
+2022-12-13 05:27:44.471 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『PLATFORMER - Stylized Cube World Vol.1』
+2022-12-13 05:27:45.158 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized Truck Pack』
+2022-12-13 05:27:45.832 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Hospitality Pack』
+2022-12-13 05:27:46.496 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Modular Gothic Temple (medieval/winter/snow)』
+2022-12-13 05:27:46.496 | DEBUG    | services.bricklayer.core:unreal_activate_payment:603 - >> HANDLE [UnrealClaimer] 激活购物车
+2022-12-13 05:27:46.627 | DEBUG    | services.bricklayer.core:unreal_activate_payment:606 - >> HANDLE [UnrealClaimer] 激活订单
+2022-12-13 05:27:47.557 | INFO     | services.bricklayer.core:unreal_surprise_license:402 - 处理首次下单的许可协议
+2022-12-13 05:28:04.009 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized - Dynamic Nature』
+2022-12-13 05:28:04.678 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『PLATFORMER - Stylized Cube World Vol.1』
+2022-12-13 05:28:05.350 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized Truck Pack』
+2022-12-13 05:28:06.023 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Hospitality Pack』
+2022-12-13 05:28:06.706 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Modular Gothic Temple (medieval/winter/snow)』
+2022-12-13 05:28:06.706 | DEBUG    | services.bricklayer.core:unreal_activate_payment:603 - >> HANDLE [UnrealClaimer] 激活购物车
+2022-12-13 05:28:06.861 | DEBUG    | services.bricklayer.core:unreal_activate_payment:606 - >> HANDLE [UnrealClaimer] 激活订单
