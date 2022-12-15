@@ -888,3 +888,111 @@
 2022-12-15 05:30:12.913 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - strawberry_in_a_basket(ResNet)_model: 0.6s
 2022-12-15 05:30:12.949 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
 2022-12-15 05:30:12.949 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:23:55.513 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-16 05:23:57.004 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-16 05:23:57.065 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-16 05:24:07.690 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-16 05:24:16.158 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-16 05:24:16.160 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-16 05:24:16.518 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Bloons TD 6 - state=待认领 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 05:24:21.793 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Bloons TD 6 - state=获取 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 05:24:22.257 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-16 05:24:22.360 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-16 05:24:31.963 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-16 05:24:32.004 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「树上苹果」
+2022-12-16 05:24:32.004 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:24:32.812 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:24:33.827 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.01s
+2022-12-16 05:24:34.029 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading apple_on_a_tree.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/apple_on_a_tree.onnx
+2022-12-16 05:24:36.780 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - apple_on_a_tree(ResNet)_model: 1.07s
+2022-12-16 05:24:36.803 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:24:38.835 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「树上苹果」
+2022-12-16 05:24:38.836 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:24:39.510 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:24:40.404 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.89s
+2022-12-16 05:24:42.746 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - apple_on_a_tree(ResNet)_model: 0.62s
+2022-12-16 05:24:42.775 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-16 05:24:42.775 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:24:45.114 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-16 05:24:50.812 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Bloons TD 6 - state=获取 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 05:24:51.238 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-16 05:24:51.238 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-16 05:25:00.702 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-16 05:25:00.735 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水中刺猬」
+2022-12-16 05:25:00.736 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:25:01.534 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:25:02.455 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2022-12-16 05:25:02.532 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading hedgehog_in_water.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hedgehog_in_water.onnx
+2022-12-16 05:25:05.289 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_in_water(ResNet)_model: 0.9s
+2022-12-16 05:25:05.309 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:25:07.339 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水中刺猬」
+2022-12-16 05:25:07.339 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:25:08.066 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:25:08.963 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.9s
+2022-12-16 05:25:11.496 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_in_water(ResNet)_model: 0.62s
+2022-12-16 05:25:11.535 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-16 05:25:11.535 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:25:13.837 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-16 05:25:19.807 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Bloons TD 6 - state=获取 link=https://store.epicgames.com/zh-CN/p/bloons-td-6-bf95a0
+2022-12-16 05:25:20.244 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-16 05:25:20.244 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-16 05:25:29.884 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-16 05:25:29.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水中刺猬」
+2022-12-16 05:25:29.920 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:25:30.674 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:25:31.604 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.93s
+2022-12-16 05:25:34.195 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_in_water(ResNet)_model: 0.64s
+2022-12-16 05:25:34.213 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:25:36.239 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水中刺猬」
+2022-12-16 05:25:36.240 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:25:37.010 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:25:37.931 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2022-12-16 05:25:40.492 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_in_water(ResNet)_model: 0.65s
+2022-12-16 05:25:40.538 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-16 05:25:40.538 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:25:42.983 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-16 05:25:54.435 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-16 05:25:54.620 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-16 05:25:55.654 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-16 05:25:55.708 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-16 05:25:57.510 | INFO     | services.bricklayer.core:login:516 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-16 05:25:58.836 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-16 05:25:59.633 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Stylized - Dynamic Nature] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/stylized-dynamic-nature
+2022-12-16 05:25:59.633 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer PLATFORMER - Stylized Cube World Vol.1] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/platformer-stylized-cube-world-vol-1
+2022-12-16 05:25:59.633 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Stylized Truck Pack] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/stylized-truck-pack
+2022-12-16 05:25:59.633 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Hospitality Pack] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/hospitality-pack
+2022-12-16 05:25:59.633 | DEBUG    | services.deploy:preload:342 - >> CHECKOUT [UnrealClaimer Modular Gothic Temple (medieval/winter/snow)] - state=待认领 link=https://www.unrealengine.com/marketplace/zh-CN/product/modular-gothic-temple-medieval-winter-snow
+2022-12-16 05:26:07.082 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized - Dynamic Nature』
+2022-12-16 05:26:07.791 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『PLATFORMER - Stylized Cube World Vol.1』
+2022-12-16 05:26:08.516 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized Truck Pack』
+2022-12-16 05:26:09.225 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Hospitality Pack』
+2022-12-16 05:26:09.959 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Modular Gothic Temple (medieval/winter/snow)』
+2022-12-16 05:26:09.959 | DEBUG    | services.bricklayer.core:unreal_activate_payment:603 - >> HANDLE [UnrealClaimer] 激活购物车
+2022-12-16 05:26:10.097 | DEBUG    | services.bricklayer.core:unreal_activate_payment:606 - >> HANDLE [UnrealClaimer] 激活订单
+2022-12-16 05:26:20.498 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「菠萝」
+2022-12-16 05:26:20.499 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:26:21.349 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:26:22.436 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.09s
+2022-12-16 05:26:22.640 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading pineapple.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/pineapple.onnx
+2022-12-16 05:26:25.287 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - pineapple(ResNet)_model: 0.95s
+2022-12-16 05:26:25.314 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:26:45.400 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized - Dynamic Nature』
+2022-12-16 05:26:46.186 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『PLATFORMER - Stylized Cube World Vol.1』
+2022-12-16 05:26:46.892 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Stylized Truck Pack』
+2022-12-16 05:26:47.597 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Hospitality Pack』
+2022-12-16 05:26:48.294 | DEBUG    | services.bricklayer.core:unreal_activate_payment:598 - >> ADD [UnrealClaimer] 添加到购物车 - offer=『Modular Gothic Temple (medieval/winter/snow)』
+2022-12-16 05:26:48.294 | DEBUG    | services.bricklayer.core:unreal_activate_payment:603 - >> HANDLE [UnrealClaimer] 激活购物车
+2022-12-16 05:26:48.425 | DEBUG    | services.bricklayer.core:unreal_activate_payment:606 - >> HANDLE [UnrealClaimer] 激活订单
+2022-12-16 05:26:58.737 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水中刺猬」
+2022-12-16 05:26:58.737 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:26:59.515 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:27:00.431 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.92s
+2022-12-16 05:27:03.313 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_in_water(ResNet)_model: 0.62s
+2022-12-16 05:27:03.336 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-16 05:27:05.363 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「水中刺猬」
+2022-12-16 05:27:05.364 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-16 05:27:06.007 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-16 05:27:06.913 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.91s
+2022-12-16 05:27:09.292 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_in_water(ResNet)_model: 0.63s
+2022-12-16 05:27:09.326 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-16 05:27:09.327 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
