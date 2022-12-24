@@ -1924,3 +1924,116 @@ ResourceWarning:
             1. Check objects.yaml for typos | model=ladybug.onnx;
             2. Restart the program after deleting the local cache | dir=datas/models/_assets;
             
+2022-12-25 05:23:00.499 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2022-12-25 05:23:00.709 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-25 05:23:00.719 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-25 05:23:03.531 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-25 05:23:03.594 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-25 05:23:15.280 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-25 05:23:23.324 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-25 05:23:23.325 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-25 05:23:23.678 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Metro Last Light Redux - state=待认领 link=https://store.epicgames.com/zh-CN/p/metro-last-light-redux
+2022-12-25 05:23:27.721 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Metro Last Light Redux - state=获取 link=https://store.epicgames.com/zh-CN/p/metro-last-light-redux
+2022-12-25 05:23:28.119 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-25 05:23:28.124 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-25 05:23:37.707 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-25 05:23:37.744 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「玫瑰」
+2022-12-25 05:23:37.745 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-25 05:23:38.499 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-25 05:23:39.819 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.32s
+2022-12-25 05:23:39.820 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2022-12-25 05:23:39.976 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-25 05:23:40.269 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1856), thread 'MainThread' (139940109143104):
+Traceback (most recent call last):
+  File "/home/runner/work/egames5/egames5/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+> File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames5/egames5/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 309, in just_do_it
+    fire(
+  File "/home/runner/work/egames5/egames5/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 305, in run
+    result = empower_games_claimer(self.bricklayer, promotion.url, page, pattern="get")
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/game.py", line 170, in empower_games_claimer
+    return claimer.get_free_game(page_link=page_link, page=page, pattern=pattern)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/game.py", line 157, in get_free_game
+    self.cart_handle_payment(page)  # mode: get
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 561, in cart_handle_payment
+    self._duel_with_challenge(page)  # cart_handle_payment
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 474, in _duel_with_challenge
+    resp = self.armor.anti_hcaptcha(page, window=window)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 267, in anti_hcaptcha
+    self.challenge(frame_challenge, model=model)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 125, in challenge
+    result = model.solution(img_stream=data, label=self.label_alias[self.label])
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 63, in solution
+    return self.classifier(img_stream, feature_filters=None)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 54, in classifier
+    raise ResourceWarning(_err_prompt)  # maybe mercy
+ResourceWarning: 
+            The remote network does not exist or the local cache has expired.
+            1. Check objects.yaml for typos | model=rose.onnx;
+            2. Restart the program after deleting the local cache | dir=datas/models/_assets;
+            
+2022-12-25 05:23:41.646 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2022-12-25 05:23:41.832 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-25 05:23:41.843 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-25 05:23:42.030 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-25 05:23:43.173 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-25 05:23:43.226 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-25 05:23:55.209 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-12-25 05:23:55.209 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-12-25 05:23:57.447 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「玫瑰」
+2022-12-25 05:23:57.448 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-25 05:23:57.978 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-25 05:23:59.299 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.32s
+2022-12-25 05:23:59.300 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2022-12-25 05:23:59.464 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
+2022-12-25 05:23:59.574 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (2190), thread 'MainThread' (140013078764608):
+Traceback (most recent call last):
+  File "/home/runner/work/egames5/egames5/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 143, in unreal
+    Scaffold.claim(silence=silence, ignore=ignore, unreal=True)
+> File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames5/egames5/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 108, in job_loop_claim
+    with UnrealClaimerInstance(self.silence, log_ignore=log_ignore) as claimer:
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 164, in __enter__
+    fire(  # token
+  File "/home/runner/work/egames5/egames5/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 708, in refresh_ctx_cookies
+    resp = self.armor.anti_hcaptcha(page, window="login", recur_url=recur_url)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 267, in anti_hcaptcha
+    self.challenge(frame_challenge, model=model)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 125, in challenge
+    result = model.solution(img_stream=data, label=self.label_alias[self.label])
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 63, in solution
+    return self.classifier(img_stream, feature_filters=None)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 54, in classifier
+    raise ResourceWarning(_err_prompt)  # maybe mercy
+ResourceWarning: 
+            The remote network does not exist or the local cache has expired.
+            1. Check objects.yaml for typos | model=rose.onnx;
+            2. Restart the program after deleting the local cache | dir=datas/models/_assets;
+            
