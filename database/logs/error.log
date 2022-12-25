@@ -168,3 +168,54 @@ ResourceWarning:
             1. Check objects.yaml for typos | model=rose.onnx;
             2. Restart the program after deleting the local cache | dir=datas/models/_assets;
             
+2022-12-26 05:26:16.545 | ERROR    | services.deploy:__enter__:171 - Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.unrealengine.com/id/login?lang=zh_CN&redirectUrl=https://www.unrealengine.com/marketplace/zh-CN/assets?count=20&sortBy=currentPrice&sortDir=ASC&start=0&tag=4910", waiting until "networkidle"
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/egames5/egames5/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 143, in unreal
+    Scaffold.claim(silence=silence, ignore=ignore, unreal=True)
+  File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames5/egames5/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 108, in job_loop_claim
+    with UnrealClaimerInstance(self.silence, log_ignore=log_ignore) as claimer:
+> File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 164, in __enter__
+    fire(  # token
+  File "/home/runner/work/egames5/egames5/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 699, in refresh_ctx_cookies
+    result = self.login(self.email, self.password, page=page, auth_str=self.auth_str)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 519, in login
+    page.goto(url_login, wait_until="networkidle")
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8114, in goto
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_page.py", line 495, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.unrealengine.com/id/login?lang=zh_CN&redirectUrl=https://www.unrealengine.com/marketplace/zh-CN/assets?count=20&sortBy=currentPrice&sortDir=ASC&start=0&tag=4910", waiting until "networkidle"
+============================================================
+2022-12-26 05:26:16.549 | ERROR    | services.deploy:_bad_omen:222 - >> Notify [UnrealClaimer] 推送运行日志 - active_pusher=[] err=Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.unrealengine.com/id/login?lang=zh_CN&redirectUrl=https://www.unrealengine.com/marketplace/zh-CN/assets?count=20&sortBy=currentPrice&sortDir=ASC&start=0&tag=4910", waiting until "networkidle"
+============================================================

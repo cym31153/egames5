@@ -2037,3 +2037,121 @@ ResourceWarning:
             1. Check objects.yaml for typos | model=rose.onnx;
             2. Restart the program after deleting the local cache | dir=datas/models/_assets;
             
+2022-12-26 05:22:57.397 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-26 05:22:58.457 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-26 05:22:58.518 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-26 05:23:32.991 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-26 05:23:39.382 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-26 05:23:39.383 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-26 05:23:39.749 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] DEATH STRANDING - state=待认领 link=https://store.epicgames.com/zh-CN/p/death-stranding
+2022-12-26 05:23:44.090 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] DEATH STRANDING - state=获取 link=https://store.epicgames.com/zh-CN/p/death-stranding
+2022-12-26 05:23:44.484 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-26 05:23:44.489 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-26 05:23:54.382 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-26 05:23:54.419 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「玫瑰」
+2022-12-26 05:23:54.419 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-26 05:23:55.221 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-26 05:23:56.441 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2022-12-26 05:23:56.443 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading rose.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/rose.onnx
+2022-12-26 05:23:58.474 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - rose(ResNet)_model: 0.62s
+2022-12-26 05:23:58.490 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-26 05:24:00.521 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「玫瑰」
+2022-12-26 05:24:00.521 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-26 05:24:01.244 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-26 05:24:02.399 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.16s
+2022-12-26 05:24:04.162 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - rose(ResNet)_model: 0.01s
+2022-12-26 05:24:04.194 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-26 05:24:04.194 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-26 05:24:06.424 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-26 05:24:12.014 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] DEATH STRANDING - state=获取 link=https://store.epicgames.com/zh-CN/p/death-stranding
+2022-12-26 05:24:12.464 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-26 05:24:12.464 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-26 05:24:21.876 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-26 05:24:21.903 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「玫瑰」
+2022-12-26 05:24:21.903 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-26 05:24:22.531 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-26 05:24:23.856 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.33s
+2022-12-26 05:24:25.505 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - rose(ResNet)_model: 0.07s
+2022-12-26 05:24:25.522 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-26 05:24:27.542 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「玫瑰」
+2022-12-26 05:24:27.542 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-26 05:24:28.210 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-26 05:24:29.334 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.12s
+2022-12-26 05:24:31.350 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - rose(ResNet)_model: 0.01s
+2022-12-26 05:24:31.374 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-26 05:24:31.374 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-26 05:24:33.777 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-26 05:24:40.074 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] DEATH STRANDING - state=获取 link=https://store.epicgames.com/zh-CN/p/death-stranding
+2022-12-26 05:24:40.489 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-26 05:24:40.489 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-26 05:24:49.743 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-26 05:24:49.770 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-26 05:24:49.770 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-26 05:24:50.409 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-26 05:24:51.460 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.05s
+2022-12-26 05:24:51.531 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading hedgehog_on_rocks.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hedgehog_on_rocks.onnx
+2022-12-26 05:24:54.337 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.99s
+2022-12-26 05:24:54.350 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-26 05:24:56.372 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-26 05:24:56.372 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-26 05:24:56.957 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-26 05:24:58.000 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.04s
+2022-12-26 05:25:00.597 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.6s
+2022-12-26 05:25:00.624 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-26 05:25:00.624 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-26 05:25:02.957 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-26 05:25:13.291 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-26 05:25:13.480 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-26 05:25:14.390 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-26 05:25:14.448 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-26 05:26:16.545 | ERROR    | services.deploy:__enter__:171 - Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.unrealengine.com/id/login?lang=zh_CN&redirectUrl=https://www.unrealengine.com/marketplace/zh-CN/assets?count=20&sortBy=currentPrice&sortDir=ASC&start=0&tag=4910", waiting until "networkidle"
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/egames5/egames5/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 143, in unreal
+    Scaffold.claim(silence=silence, ignore=ignore, unreal=True)
+  File "/home/runner/work/egames5/egames5/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/egames5/egames5/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 108, in job_loop_claim
+    with UnrealClaimerInstance(self.silence, log_ignore=log_ignore) as claimer:
+> File "/home/runner/work/egames5/egames5/epic/src/services/deploy.py", line 164, in __enter__
+    fire(  # token
+  File "/home/runner/work/egames5/egames5/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 699, in refresh_ctx_cookies
+    result = self.login(self.email, self.password, page=page, auth_str=self.auth_str)
+  File "/home/runner/work/egames5/egames5/epic/src/services/bricklayer/core.py", line 519, in login
+    page.goto(url_login, wait_until="networkidle")
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8114, in goto
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_page.py", line 495, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.unrealengine.com/id/login?lang=zh_CN&redirectUrl=https://www.unrealengine.com/marketplace/zh-CN/assets?count=20&sortBy=currentPrice&sortDir=ASC&start=0&tag=4910", waiting until "networkidle"
+============================================================
+2022-12-26 05:26:16.549 | ERROR    | services.deploy:_bad_omen:222 - >> Notify [UnrealClaimer] 推送运行日志 - active_pusher=[] err=Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.unrealengine.com/id/login?lang=zh_CN&redirectUrl=https://www.unrealengine.com/marketplace/zh-CN/assets?count=20&sortBy=currentPrice&sortDir=ASC&start=0&tag=4910", waiting until "networkidle"
+============================================================
