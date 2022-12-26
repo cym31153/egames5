@@ -20,7 +20,7 @@ jobs:
     - name: 初始化环境 & 拉取项目
       run: |
         sudo timedatectl set-timezone "Asia/Shanghai"
-        git clone https://gitlab.com/cym31153/eplus.git epic
+        git clone https://github.com/QIN2DIM/epic-awesome-gamer/tree/85b95c4.git epic
     - name: 初始化配置文件
       run: |
         cd epic/src
