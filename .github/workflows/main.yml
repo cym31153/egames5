@@ -20,7 +20,7 @@ jobs:
     - name: 初始化环境 & 拉取项目
       run: |
         sudo timedatectl set-timezone "Asia/Shanghai"
-        git clone -b 85b95c4 https://github.com/QIN2DIM/epic-awesome-gamer epic
+        git clone -b 85b95c467c https://github.com/QIN2DIM/epic-awesome-gamer epic
     - name: 初始化配置文件
       run: |
         cd epic/src
