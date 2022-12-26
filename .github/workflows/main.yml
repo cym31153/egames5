@@ -2,8 +2,7 @@ name: egames # 修改你的名称
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 23 * * 4,5" # 修改你的定时配置
+
 
 jobs:
   setup:
@@ -15,22 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
     - name: 初始化环境 & 拉取项目
       run: |
         sudo timedatectl set-timezone "Asia/Shanghai"
-        git clone https://github.com/QIN2DIM/epic-awesome-gamer.git epic
-        cp epic/requirements.txt .
+        git clone https://gitlab.com/cym31153/eplus.git epic
     - name: 初始化配置文件
       run: |
         cd epic/src
-        echo "PUSHER_TELEGRAM: ${{ secrets.PUSHER_TELEGRAM }}" >> config.yaml
         echo "EPIC_EMAIL: ${{ secrets.EPIC_EMAIL }}" >> config.yaml
         echo "EPIC_PASSWORD: ${{ secrets.EPIC_PASSWORD }}" >> config.yaml
-        echo "PLAYER: ${{ secrets.PLAYER }}" >>config.yaml
-    - uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
-        cache: 'pip' # caching pip dependencies
     - name: 安装依赖
       run: |
         pip install -r epic/requirements.txt
@@ -41,7 +36,7 @@ jobs:
         cd epic/src/
         ${{ env.COMMAND_CLAIM }}
         # ${{ env.COMMAND_GET }} # Optional
-        # ${{ env.COMMAND_UNREAL }} # Optional
+        ${{ env.COMMAND_UNREAL }} # Optional
     - name: Setup GIT user
       uses: fregante/setup-git-user@v1
     - name: 缓存身份令牌
@@ -53,4 +48,4 @@ jobs:
         rm -rf epic
         git add .
         git commit -m "${{ env.FAKE_HASH }}" 
-        git push -f          
+        git push -f     
